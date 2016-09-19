@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Seg 05 Set 2016 18:56:26 BRT by Netedit Version 0.26.0
-<?xml version="1.0" encoding="UTF-8"?>
-
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
-
-    <input>
-        <sumo-net-file value="/home/lauro/Desktop/WAVE/veins-master/cenarios/ipanema/ipanema.net.xml"/>
-    </input>
-
-    <output>
-        <output-file value="/home/lauro/Desktop/WAVE/veins-master/cenarios/ipanema/ipanema_backup.net.xml"/>
-        <output.street-names value="true"/>
-    </output>
-
-    <processing>
-        <no-turnarounds value="true"/>
-        <offset.disable-normalization value="true"/>
-        <lefthand value="false"/>
-        <junctions.corner-detail value="0"/>
-    </processing>
-
-</configuration>
--->
-
 <net version="0.25" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
 
     <location netOffset="-682131.96,2543399.06" convBoundary="0.00,0.00,4099.69,2235.83" origBoundary="-43.233351,-22.990499,-43.172872,-22.950363" projParameter="+proj=utm +zone=23 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
