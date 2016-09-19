@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+
+    <vType id="sec"  speedFactor="1.2"  minGap="0.5" vClass="emergency" guiShape="emergency" priority="1"/>
+
+    <vTypeDistribution id="distNormCars">
+        <vType id="car1" speedFactor="0.9" minGap="0.5" color="0,0,1" probability="0.05"/>
+        <vType id="car2" speedFactor="0.8" minGap="0.5" color="0,0,1" probability="0.10"/>
+        <vType id="car3" speedFactor="0.75" minGap="0.5" color="0,1,0" probability="0.25"/>
+        <vType id="car4" speedFactor="0.7" minGap="0.5" color="0,1,1" probability="0.25"/>
+        <vType id="car5" speedFactor="0.6" minGap="0.5" color="1,0,0" probability="0.2"/>
+        <vType id="car6" speedFactor="0.5" minGap="0.5" color="1,0,1" probability="0.1"/>
+        <vType id="car7" speedFactor="0.4" minGap="0.5" color="1,1,0" probability="0.05"/>
+    </vTypeDistribution>
+
+	<flows>
+	
+	    <flow id="AvMaracana1a" number="30" period="5" arrivalLane="current" departLane="random" 
+	    departPos="random" type="distNormCars" from="227286897#0" to="369072457#6"/> 
+	    	    	
+	    <flow id="AvMaracana2a" number="10" period="5" arrivalLane="current" 
+	    departLane="random" departPos="random" type="distNormCars" from="215997911#1" to="365615223#8"/>
+	    
+	    <flow id="AvMaracana3a" number="30" period="5" arrivalLane="current" 
+	    departLane="random" departPos="random" type="distNormCars" from="215997911#1" to="131269852#3"/>
+	    	    		    
+	    <flow id="RuaSaoFranciscoXavier1" number="40" period="5" arrivalLane="current" 
+	    departLane="random" departPos="random" type="distNormCars" from="377272482#0" to="131269852#3"/>
+	    
+	    <flow id="RuaSaoFranciscoXavier2" number="10" period="5" arrivalLane="current" departLane="random" 
+	    departPos="random" type="distNormCars" from="377272482#0" to="369072457#6" via="164419698#8"/>
+	     
+        <flow id="RuaIsidroDeFigueiredo" number="10" period="5" arrivalLane="current" departLane="random" 
+	    departPos="random" type="distNormCars" from="172592918#0" to="369072457#6" via="164419698#8"/>
+ 		
+		<flow id="EmergencyRoute" number="1" begin="60" type="sec" from="227286897#0" to="369072457#6"/>
+	     
+        <flow id="RuaJaguaceiAvMaracana" number="30" period="5" begin="120" arrivalLane="current" departLane="random" 
+	    departPos="random" type="distNormCars" from="163532015#1" to="369072457#6" />
+	    
+        <flow id="RuaBaraoDeMesquitaAvMaracana" number="30" period="5" begin="145" arrivalLane="current" departLane="random" 
+	    departPos="random" type="distNormCars" from="192348045#0" to="369072457#6"/>
+	    
+        <flow id="RuaMajorAvilaAvMaracana" number="30" period="5" begin="170" arrivalLane="current" departLane="random" 
+	    departPos="random" type="distNormCars" from="172592927#0" to="369072457#6"/>
+	
+	</flows>
+        
+</routes>

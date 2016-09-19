@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<routes>
+
+   <!-- sec -->	
+	<vType id="sec" accel="2.6" decel="4.5" sigma="0.5" length="6.5" width="2.16" height="2.86" 
+   minGap="2.5" maxSpeed="40" vClass="emergency" guiShape="emergency"/> 
+   
+    <vTypeDistribution id="distNormCars">
+        <vType id="car1" speedFactor="0.9" minGap="0.5" color="0,0,1" probability="0.05" personNumber="4"/>
+        <vType id="car2" speedFactor="0.8" minGap="0.5" color="0,0,1" probability="0.10" personNumber="4"/>
+        <vType id="car3" speedFactor="0.75" minGap="0.5" color="0,1,0" probability="0.25" personNumber="4"/>
+        <vType id="car4" speedFactor="0.7" minGap="0.5" color="0,1,1" probability="0.25" personNumber="4"/>
+        <vType id="car5" speedFactor="0.6" minGap="0.5" color="1,0,0" probability="0.2" personNumber="4"/>
+        <vType id="car6" speedFactor="0.5" minGap="0.5" color="1,0,1" probability="0.1" personNumber="4"/>
+        <vType id="car7" speedFactor="0.4" minGap="0.5" color="1,1,0" probability="0.05" personNumber="4"/>
+    </vTypeDistribution>
+   
+	<flow id="ruaA1" type="distNormCars" from="ruaA" to="ruaE" departLane="0" begin="0" period="3" number="1"/>
+	<flow id="ruaA2" type="distNormCars" from="ruaA" to="ruaE" departLane="1" begin="0" period="3" number="1"/>
+	<flow id="ruaB1" type="distNormCars" from="ruaB" to="ruaE" departLane="0" begin="0" period="3" number="1"/>
+	<flow id="ruaB2" type="distNormCars" from="ruaB" to="ruaE" departLane="1" begin="0" period="3" number="1"/>
+	<flow id="ruaD1" type="distNormCars" from="ruaC" to="ruaE" departLane="0" begin="0" period="3" number="1"/>
+	<flow id="ruaD2" type="distNormCars" from="ruaC" to="ruaE" departLane="1" begin="0" period="3" number="1"/>
+	
+	<flow id="rua01" type="distNormCars" from="rua00" to="rua04" departLane="0" begin="0" period="5" number="2"/>
+	<flow id="rua02" type="distNormCars" from="rua00" to="rua04" departLane="1" begin="0" period="5" number="1"/>
+	<flow id="rua11" type="distNormCars" from="rua01" to="rua04" departLane="0" begin="5" period="5" number="3"/>
+	<flow id="rua12" type="distNormCars" from="rua01" to="rua04" departLane="1" begin="5" period="5" number="2"/>
+	<flow id="rua21" type="distNormCars" from="rua02" to="rua04" departLane="0" begin="5" period="5" number="1"/>
+	<flow id="rua22" type="distNormCars" from="rua02" to="rua04" departLane="1" begin="5" period="5" number="1"/>
+	<flow id="rua31" type="distNormCars" from="rua03" to="rua04" departLane="0" begin="5" period="5" number="1"/>
+	<flow id="rua32" type="distNormCars" from="rua03" to="rua04" departLane="1" begin="5" period="5" number="1"/>
+
+	<flow id="sec" type="sec" from="rua00" to="rua04" departLane="1" begin="10" period="3" number="1"/>
+   
+</routes>

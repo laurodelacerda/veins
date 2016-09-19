@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue 13 Sep 2016 17:18:26 BRT by Netedit Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/arthurazs/WAVE/veins-master/experimento1e2/cenario1e2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/arthurazs/WAVE/veins-master/experimento1e2/cenario1e2.net.xml"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+    </processing>
+
+</configuration>
+-->
+
+<net version="0.25" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,4000.00,50.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":juncao2_0" function="internal">
+        <lane id=":juncao2_0_0" index="0" speed="40.00" length="0.10" shape="800.00,-1.65 800.00,-1.65"/>
+        <lane id=":juncao2_0_1" index="1" speed="40.00" length="0.10" shape="800.00,1.65 800.00,1.65"/>
+    </edge>
+    <edge id=":juncao3_0" function="internal">
+        <lane id=":juncao3_0_0" index="0" speed="40.00" length="0.10" shape="1600.00,-1.65 1600.00,-1.65"/>
+        <lane id=":juncao3_0_1" index="1" speed="40.00" length="0.10" shape="1600.00,1.65 1600.00,1.65"/>
+    </edge>
+    <edge id=":juncao4_0" function="internal">
+        <lane id=":juncao4_0_0" index="0" speed="40.00" length="0.10" shape="2400.00,-1.65 2400.00,-1.65"/>
+        <lane id=":juncao4_0_1" index="1" speed="40.00" length="0.10" shape="2400.00,1.65 2400.00,1.65"/>
+    </edge>
+    <edge id=":juncao5_0" function="internal">
+        <lane id=":juncao5_0_0" index="0" speed="40.00" length="0.10" shape="3200.00,-1.65 3200.00,-1.65"/>
+        <lane id=":juncao5_0_1" index="1" speed="40.00" length="0.10" shape="3200.00,1.65 3200.00,1.65"/>
+    </edge>
+    <edge id=":juncaoB_0" function="internal">
+        <lane id=":juncaoB_0_0" index="0" speed="40.00" length="0.10" shape="800.00,48.35 800.00,48.35"/>
+        <lane id=":juncaoB_0_1" index="1" speed="40.00" length="0.10" shape="800.00,51.65 800.00,51.65"/>
+    </edge>
+    <edge id=":juncaoC_0" function="internal">
+        <lane id=":juncaoC_0_0" index="0" speed="40.00" length="0.10" shape="1600.00,48.35 1600.00,48.35"/>
+        <lane id=":juncaoC_0_1" index="1" speed="40.00" length="0.10" shape="1600.00,51.65 1600.00,51.65"/>
+    </edge>
+    <edge id=":juncaoD_0" function="internal">
+        <lane id=":juncaoD_0_0" index="0" speed="40.00" length="0.10" shape="2400.00,48.35 2400.00,48.35"/>
+        <lane id=":juncaoD_0_1" index="1" speed="40.00" length="0.10" shape="2400.00,51.65 2400.00,51.65"/>
+    </edge>
+    <edge id=":juncaoE_0" function="internal">
+        <lane id=":juncaoE_0_0" index="0" speed="40.00" length="0.10" shape="3200.00,48.35 3200.00,48.35"/>
+        <lane id=":juncaoE_0_1" index="1" speed="40.00" length="0.10" shape="3200.00,51.65 3200.00,51.65"/>
+    </edge>
+
+    <edge id="rua00" from="juncao1" to="juncao2" priority="1" spreadType="center" length="800.00">
+        <lane id="rua00_0" index="0" speed="40.00" length="800.00" shape="0.00,-1.65 800.00,-1.65"/>
+        <lane id="rua00_1" index="1" speed="40.00" length="800.00" shape="0.00,1.65 800.00,1.65"/>
+    </edge>
+    <edge id="rua01" from="juncao2" to="juncao3" priority="1" spreadType="center" length="800.00">
+        <lane id="rua01_0" index="0" speed="40.00" length="800.00" shape="800.00,-1.65 1600.00,-1.65"/>
+        <lane id="rua01_1" index="1" speed="40.00" length="800.00" shape="800.00,1.65 1600.00,1.65"/>
+    </edge>
+    <edge id="rua02" from="juncao3" to="juncao4" priority="1" spreadType="center" length="800.00">
+        <lane id="rua02_0" index="0" speed="40.00" length="800.00" shape="1600.00,-1.65 2400.00,-1.65"/>
+        <lane id="rua02_1" index="1" speed="40.00" length="800.00" shape="1600.00,1.65 2400.00,1.65"/>
+    </edge>
+    <edge id="rua03" from="juncao4" to="juncao5" priority="1" spreadType="center" length="800.00">
+        <lane id="rua03_0" index="0" speed="40.00" length="800.00" shape="2400.00,-1.65 3200.00,-1.65"/>
+        <lane id="rua03_1" index="1" speed="40.00" length="800.00" shape="2400.00,1.65 3200.00,1.65"/>
+    </edge>
+    <edge id="rua04" from="juncao5" to="juncao6" priority="1" spreadType="center" length="800.00">
+        <lane id="rua04_0" index="0" speed="40.00" length="800.00" shape="3200.00,-1.65 4000.00,-1.65"/>
+        <lane id="rua04_1" index="1" speed="40.00" length="800.00" shape="3200.00,1.65 4000.00,1.65"/>
+    </edge>
+    <edge id="ruaA" from="juncaoA" to="juncaoB" priority="1" spreadType="center" length="800.00">
+        <lane id="ruaA_0" index="0" speed="40.00" length="800.00" shape="0.00,48.35 800.00,48.35"/>
+        <lane id="ruaA_1" index="1" speed="40.00" length="800.00" shape="0.00,51.65 800.00,51.65"/>
+    </edge>
+    <edge id="ruaB" from="juncaoB" to="juncaoC" priority="1" spreadType="center">
+        <lane id="ruaB_0" index="0" speed="40.00" length="800.00" shape="800.00,48.35 1600.00,48.35"/>
+        <lane id="ruaB_1" index="1" speed="40.00" length="800.00" shape="800.00,51.65 1600.00,51.65"/>
+    </edge>
+    <edge id="ruaC" from="juncaoC" to="juncaoD" priority="1" spreadType="center" length="800.00">
+        <lane id="ruaC_0" index="0" speed="40.00" length="800.00" shape="1600.00,48.35 2400.00,48.35"/>
+        <lane id="ruaC_1" index="1" speed="40.00" length="800.00" shape="1600.00,51.65 2400.00,51.65"/>
+    </edge>
+    <edge id="ruaD" from="juncaoD" to="juncaoE" priority="1" spreadType="center" length="800.00">
+        <lane id="ruaD_0" index="0" speed="40.00" length="800.00" shape="2400.00,48.35 3200.00,48.35"/>
+        <lane id="ruaD_1" index="1" speed="40.00" length="800.00" shape="2400.00,51.65 3200.00,51.65"/>
+    </edge>
+    <edge id="ruaE" from="juncaoE" to="juncaoF" priority="1" spreadType="center" length="800.00">
+        <lane id="ruaE_0" index="0" speed="40.00" length="800.00" shape="3200.00,48.35 4000.00,48.35"/>
+        <lane id="ruaE_1" index="1" speed="40.00" length="800.00" shape="3200.00,51.65 4000.00,51.65"/>
+    </edge>
+
+    <junction id="juncao1" type="unregulated" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,3.25 0.00,-3.25"/>
+    <junction id="juncao2" type="priority" x="800.00" y="0.00" incLanes="rua00_0 rua00_1" intLanes=":juncao2_0_0 :juncao2_0_1" shape="800.00,3.25 800.00,-3.25 800.00,3.25">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="juncao3" type="unregulated" x="1600.00" y="0.00" incLanes="rua01_0 rua01_1" intLanes=":juncao3_0_0 :juncao3_0_1" shape="1600.00,3.25 1600.00,-3.25 1600.00,3.25"/>
+    <junction id="juncao4" type="unregulated" x="2400.00" y="0.00" incLanes="rua02_0 rua02_1" intLanes=":juncao4_0_0 :juncao4_0_1" shape="2400.00,3.25 2400.00,-3.25 2400.00,3.25"/>
+    <junction id="juncao5" type="unregulated" x="3200.00" y="0.00" incLanes="rua03_0 rua03_1" intLanes=":juncao5_0_0 :juncao5_0_1" shape="3200.00,3.25 3200.00,-3.25 3200.00,3.25"/>
+    <junction id="juncao6" type="unregulated" x="4000.00" y="0.00" incLanes="rua04_0 rua04_1" intLanes="" shape="4000.00,-3.25 4000.00,3.25"/>
+    <junction id="juncaoA" type="unregulated" x="0.00" y="50.00" incLanes="" intLanes="" shape="0.00,53.25 0.00,46.75"/>
+    <junction id="juncaoB" type="priority" x="800.00" y="50.00" incLanes="ruaA_0 ruaA_1" intLanes=":juncaoB_0_0 :juncaoB_0_1" shape="800.00,53.25 800.00,46.75 800.00,53.25">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="juncaoC" type="priority" x="1600.00" y="50.00" incLanes="ruaB_0 ruaB_1" intLanes=":juncaoC_0_0 :juncaoC_0_1" shape="1600.00,53.25 1600.00,46.75 1600.00,53.25">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="juncaoD" type="priority" x="2400.00" y="50.00" incLanes="ruaC_0 ruaC_1" intLanes=":juncaoD_0_0 :juncaoD_0_1" shape="2400.00,53.25 2400.00,46.75 2400.00,53.25">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="juncaoE" type="priority" x="3200.00" y="50.00" incLanes="ruaD_0 ruaD_1" intLanes=":juncaoE_0_0 :juncaoE_0_1" shape="3200.00,53.25 3200.00,46.75 3200.00,53.25">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="juncaoF" type="unregulated" x="4000.00" y="50.00" incLanes="ruaE_0 ruaE_1" intLanes="" shape="4000.00,46.75 4000.00,53.25"/>
+
+    <connection from="rua00" to="rua01" fromLane="0" toLane="0" via=":juncao2_0_0" dir="s" state="M"/>
+    <connection from="rua00" to="rua01" fromLane="1" toLane="1" via=":juncao2_0_1" dir="s" state="M"/>
+    <connection from="rua01" to="rua02" fromLane="0" toLane="0" via=":juncao3_0_0" dir="s" state="M"/>
+    <connection from="rua01" to="rua02" fromLane="1" toLane="1" via=":juncao3_0_1" dir="s" state="M"/>
+    <connection from="rua02" to="rua03" fromLane="0" toLane="0" via=":juncao4_0_0" dir="s" state="M"/>
+    <connection from="rua02" to="rua03" fromLane="1" toLane="1" via=":juncao4_0_1" dir="s" state="M"/>
+    <connection from="rua03" to="rua04" fromLane="0" toLane="0" via=":juncao5_0_0" dir="s" state="M"/>
+    <connection from="rua03" to="rua04" fromLane="1" toLane="1" via=":juncao5_0_1" dir="s" state="M"/>
+    <connection from="ruaA" to="ruaB" fromLane="0" toLane="0" via=":juncaoB_0_0" dir="s" state="M"/>
+    <connection from="ruaA" to="ruaB" fromLane="1" toLane="1" via=":juncaoB_0_1" dir="s" state="M"/>
+    <connection from="ruaB" to="ruaC" fromLane="0" toLane="0" via=":juncaoC_0_0" dir="s" state="M"/>
+    <connection from="ruaB" to="ruaC" fromLane="1" toLane="1" via=":juncaoC_0_1" dir="s" state="M"/>
+    <connection from="ruaC" to="ruaD" fromLane="0" toLane="0" via=":juncaoD_0_0" dir="s" state="M"/>
+    <connection from="ruaC" to="ruaD" fromLane="1" toLane="1" via=":juncaoD_0_1" dir="s" state="M"/>
+    <connection from="ruaD" to="ruaE" fromLane="0" toLane="0" via=":juncaoE_0_0" dir="s" state="M"/>
+    <connection from="ruaD" to="ruaE" fromLane="1" toLane="1" via=":juncaoE_0_1" dir="s" state="M"/>
+
+    <connection from=":juncao2_0" to="rua01" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":juncao2_0" to="rua01" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":juncao3_0" to="rua02" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":juncao3_0" to="rua02" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":juncao4_0" to="rua03" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":juncao4_0" to="rua03" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":juncao5_0" to="rua04" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":juncao5_0" to="rua04" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":juncaoB_0" to="ruaB" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":juncaoB_0" to="ruaB" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":juncaoC_0" to="ruaC" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":juncaoC_0" to="ruaC" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":juncaoD_0" to="ruaD" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":juncaoD_0" to="ruaD" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":juncaoE_0" to="ruaE" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":juncaoE_0" to="ruaE" fromLane="1" toLane="1" dir="s" state="M"/>
+
+</net>

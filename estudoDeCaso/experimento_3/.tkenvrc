@@ -1,0 +1,4 @@
+# Partial OMNeT++/Tkenv config file -- see $HOME/.tkenvrc as well
+config default-configname	{Experimento3c}
+config default-runnumber	{0}
+

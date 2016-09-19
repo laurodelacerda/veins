@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<routes>
+
+   <!-- sec -->
+   <vType id="sec" accel="2.6" decel="4.5" sigma="0.5" length="4.5" width="2.16" height="2.86" 
+   minGap="2.5" maxSpeed="35" vClass="emergency" guiShape="emergency"/> 
+   
+   <!-- vermelho -->
+   <vType id="a" accel="2.6" decel="4.5" sigma="0.5" length="4.3" width="1.8" height="1.5" 
+   minGap="2.5" maxSpeed="6" color="1,0,0"/>
+
+   <!-- verde -->
+   <vType id="b" accel="2.6" decel="4.5" sigma="0.5" length="4.3" width="1.8" height="1.5" 
+   minGap="2.5" maxSpeed="9" color="0,1,0"/>
+
+   <route id="rotaSec" edges="rua01 rua02 rua03 rua04"/>
+   <route id="rotaA" edges="rua02 rua03 rua04"/>
+   <route id="rotaB" edges="rua03 rua04"/>
+
+   <flow id="1" type="sec" route="rotaSec" departLane="1" arrivalLane="1" begin="0" period="3" number="1"/>
+   <flow id="2" type="a" route="rotaA" departLane="0" begin="0" period="3" number="1"/>
+   <flow id="3" type="b" route="rotaA" departLane="1" begin="0" period="3" number="1"/>
+   <flow id="4" type="a" route="rotaB" departLane="0" begin="30" period="3" number="1"/>
+   <flow id="5" type="b" route="rotaB" departLane="1" begin="30" period="3" number="1"/>
+   
+</routes>
