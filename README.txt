@@ -4,7 +4,7 @@
 
 
 This is a Term paper developed around veins. You can check the paper
-[here]([Read more words!](LA_TCC_V1.pdf) (in portuguese).
+[here](LA_TCC_V1.pdf) (in portuguese).
 
 The paper describes the development of vehicular networking technology,
 its standardization and tools. Specifically, the IEEE 1609 standard is
