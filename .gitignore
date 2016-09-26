@@ -20,3 +20,10 @@ tests/**/err.tmp
 examples/**/results
 examples/**/.tkenvrc
 examples/**/valgrind.out
+
+# Case Study
+caseStudy/stats
+caseStudy/**/.tkenvrc
+caseStudy/**/out.tmp
+caseStudy/**/err.tmp
+caseStudy/**/valgrind.out
