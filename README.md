@@ -5,7 +5,8 @@
 This is a Term paper developed around veins by
 [@laurodelacerda](https://github.com/laurodelacerda) and
 [@arthurazs](https://github.com/arthurazs). You can check the paper
-[here](LA_TCC_V1.pdf) (in portuguese).
+under [arthurazs/la-tcc](https://github.com/arthurazs/la-tcc/blob/master/LA_TCC_V1.pdf)
+(in portuguese).
 
 > The paper describes the development of vehicular networking
 > technology, its standardization and tools. Specifically, the IEEE 1609
