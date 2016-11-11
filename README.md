@@ -24,4 +24,4 @@ for [WAVE applications](src/veins/modules/waveApplication) and an
 that sends emergency messages periodically requesting vehicles to give
 way.
 
-![Class Diagram](/class-diagram.png)
+![Class Diagram](Class_Diagram.png)
