@@ -1,0 +1,28 @@
+version 2
+run IpanemaOn-9-20161114-19:54:20-22868
+attr configname IpanemaOn
+attr datetime 20161114-19:54:20
+attr experiment IpanemaOn
+attr inifile ipanema_tl_.ini
+attr interval 0.5
+attr iterationvars "$roads=2, $interval=0.5"
+attr iterationvars2 "$roads=2, $interval=0.5, $repetition=9"
+attr measurement "$roads=2, $interval=0.5"
+attr network CenarioV2X
+attr processid 22868
+attr repetition 9
+attr replication #9
+attr resultdir results
+attr roads 2
+attr runnumber 9
+attr seedset 9
+
+scalar . 	interval 	0.5
+scalar . 	roads 	2
+scalar CenarioV2X.secOBU[21].nic.mac1609_4 	ReceivedBroadcasts 	12
+scalar CenarioV2X.secOBU[21].nic.mac1609_4 	SentPackets 	31
+scalar CenarioV2X.secOBU[21].veinsmobility 	totalTime 	15.5
+scalar CenarioV2X.secOBU[21].veinsmobility 	minSpeed 	0.25890343470383
+scalar CenarioV2X.secOBU[21].veinsmobility 	maxSpeed 	23.263856274134
+scalar CenarioV2X.secOBU[21].veinsmobility 	totalDistance 	225.072822526
+scalar CenarioV2X.secOBU[21].veinsmobility 	totalCO2Emission 	103.93343733625

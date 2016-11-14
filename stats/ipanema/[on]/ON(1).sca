@@ -1,0 +1,21 @@
+version 2
+run IpanemaOn-1-20161114-19:54:01-22830
+attr configname IpanemaOn
+attr datetime 20161114-19:54:01
+attr experiment IpanemaOn
+attr inifile ipanema_tl_.ini
+attr interval 0.5
+attr iterationvars "$roads=2, $interval=0.5"
+attr iterationvars2 "$roads=2, $interval=0.5, $repetition=1"
+attr measurement "$roads=2, $interval=0.5"
+attr network CenarioV2X
+attr processid 22830
+attr repetition 1
+attr replication #1
+attr resultdir results
+attr roads 2
+attr runnumber 1
+attr seedset 1
+
+scalar . 	interval 	0.5
+scalar . 	roads 	2
