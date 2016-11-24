@@ -27,4 +27,3 @@ caseStudy/**/.tkenvrc
 caseStudy/**/out.tmp
 caseStudy/**/err.tmp
 caseStudy/**/valgrind.out
-stats
