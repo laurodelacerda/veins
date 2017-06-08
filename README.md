@@ -1,6 +1,6 @@
 // Documentation for these modules is at http://veins.car2x.org/
 
-# Vehicular Networks: Trends and Case Study
+# Vehicular Networks: Trends and Case Study (Veins 4.3 compatible)
 
 This is a Term paper developed around veins by
 [@laurodelacerda](https://github.com/laurodelacerda) and
